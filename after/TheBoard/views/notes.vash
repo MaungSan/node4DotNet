@@ -1,7 +1,8 @@
 ﻿@html.extend('layout', function(model) {
 
   @html.block("scripts", function (model) {
-<script src="/js/notesView.js"></script>
+    <script src="/lib/socket.io-client/dist/socket.io.min.js"></script>
+    <script src="/js/notesView.js"></script>
   })
 
   @html.block("body", function (model) {
