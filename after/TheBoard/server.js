@@ -13,6 +13,7 @@ app.set("view engine", "vash");
 
 // Opt into Services
 app.use(express.urlencoded());
+app.use(express.json());
 app.use(express.cookieParser());
 app.use(express.session({ secret: "PluralsightTheBoard" }));
 app.use(flash());
