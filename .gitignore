@@ -1,6 +1,7 @@
 
 # Created by https://www.gitignore.io/api/node,osx,visualstudio,webstorm,bower,sass,less,webstorm
 *lib/
+after/MongoDB/data/
 ### Node ###
 # Logs
 logs
